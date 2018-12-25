@@ -1,0 +1,99 @@
+body{
+    margin: 0;padding: 0;
+    background-image: url("img/Layer 0.png");
+    height: auto;
+    background-position: cover;
+    height: 100%;
+    color: white;
+    text-align: center;
+}
+.block{ width: 100%; height:100vh;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.block1{
+    background-image: url("img/Layer 6.png");
+    
+}
+.block2{
+    background-image: url("img/Rectangle 4 copy.png");
+}
+.block3{
+    background-image: url("img/Rectangle 4 copy 2.png");
+}
+.block2-left{height: 100vh;width: 70%;float: left;}
+.block2-right{
+    height: 100vh;
+    background-color: #99cc33;
+    width: 22%;
+    padding: 4%;
+    float: left;
+}
+.block3-right{height: 100vh;width: 70%;float: left;}
+.block3-left{
+    height: 100vh;
+    background-color: #99cc33;width: 22%;
+    float: left;
+    padding: 4%;
+}
+.side-image{    margin-top: 14vh;margin-bottom: 2vh;}
+.p1{text-align: justify;}
+.p{text-align: left;}
+a.button{
+    border: 1px solid white;
+    padding: 7px 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    width: 124px;
+    display: inline-block;
+    margin-top: 34px;
+}
+.slogan{padding-top: 32vh;}
+.slogan h1{    font-weight: normal;}
+.areyou{    color: #99cc33;}
+input{
+    background-color: transparent;
+    border: 0;
+    width: 210px;
+    border-bottom: 1px solid #99cc33;
+    line-height: 1em;
+    line-height: 2.2em;
+}
+.arrow-img{
+    margin-left: -27px;
+    height: 18px;
+    vertical-align: middle;
+}
+.block1-head-left{
+    float: left;
+    padding: 20px;
+}
+.block1-head-right{
+    float: right;
+    padding: 20px;
+}
+.social{
+    height: 15px;
+    margin-left: 12px;
+    opacity: 0.6;
+}
+.title{
+    margin-top: 36vh;
+    font-weight: normal;
+    font-size: 50px;
+}
+.sub-title{
+    opacity: 0.6;
+    margin-top: 33vh;
+}
+.round{
+    background-image:url("img/Ellipse 1 copy.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 36px;
+}
+.arr-down{
+    margin-top: 7px;
+}
+::placeholder{color: white;}
