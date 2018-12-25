@@ -6,6 +6,8 @@ body{
     height: 100%;
     color: white;
     text-align: center;
+    height: 300vh;
+    overflow: hidden;
 }
 .block{ width: 100%; height:100vh;
     background-position: center;
@@ -37,7 +39,7 @@ body{
     float: left;
     padding: 4%;
 }
-.side-image{    margin-top: 14vh;margin-bottom: 2vh;}
+.side-image{margin-top: 14vh;margin-bottom: 2vh;}
 .p1{text-align: justify;}
 .p{text-align: left;}
 a.button{
@@ -97,3 +99,11 @@ input{
     margin-top: 7px;
 }
 ::placeholder{color: white;}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: transparent;
+}
